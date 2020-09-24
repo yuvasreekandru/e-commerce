@@ -17,20 +17,21 @@ font-family:  'Comic Neue', cursive;
     font-weight: 800;
 
 }
+/******carousal ***********/
 .carousel-caption{
     position:absolute;
     top:55%;
     transform:translateY(-80%);
-    left:-8%;
+    left:-1%;
 }
 .carousel-caption h1{
-    font-size: 70px;
+    font-size: 50px;
     font-weight:400;
     color:black;
 }
 .carousel-caption p{
     color:black;
-    font-weight: 400;
+    font-weight: 500;
 }
 .btn0{
     background-color:red ;
@@ -73,7 +74,7 @@ font-family:  'Comic Neue', cursive;
 .fas{
     font-size:32px ;
 }
-/*********collection ***********/
+/*********featured collection ***********/
 .collection span{
     color:yellowgreen;
     font-size: 23px;
@@ -82,6 +83,9 @@ font-family:  'Comic Neue', cursive;
 }
 .card{
     border:none;
+}
+.img-fluid{
+    height:330px;
 }
 .collection input{
     position:absolute;
@@ -151,6 +155,9 @@ font-family:  'Comic Neue', cursive;
     transition: 0.3s;   
 }
 /******** Articles *************/
+.a-img{
+    height:250px;
+}
 .article a{
     list-style:none;
     color:black;
