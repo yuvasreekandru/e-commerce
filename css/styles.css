@@ -84,9 +84,9 @@ font-family:  'Comic Neue', cursive;
 .card{
     border:none;
 }
-.img-fluid{
+/* .img-fluid{
     height:330px;
-}
+} */
 .collection input{
     position:absolute;
     height:45px;
