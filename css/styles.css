@@ -8,8 +8,10 @@ font-family:  'Comic Neue', cursive;
 }
 /******* navbar ********/
 .nav-link{
-    color:black;
     font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black ;
 }
 .navbar-brand{
     color:black;
@@ -177,6 +179,7 @@ font-family:  'Comic Neue', cursive;
 .aeticle small{
     font-size:25px;
 }
+/************ Contact **********/
 .contact input{
     height:50px;
     width: 100%;
@@ -198,4 +201,11 @@ box-shadow: 0px 2px 21px -9px rgba(0,0,0,0.75);
     border:none;
     cursor:pointer;
     display: inline-block;
+}
+.contact span{
+    font-size: 30px;
+    position: absolute;
+    /* transform: translateY(-5px); */
+    transform: translateX(-16px);
+    bottom: 0.7%;
 }
